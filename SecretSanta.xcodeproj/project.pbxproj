@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E88B36D32BBF123300B5C98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36D22BBF123300B5C98E /* AppDelegate.swift */; };
 		E88B36D52BBF123300B5C98E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36D42BBF123300B5C98E /* SceneDelegate.swift */; };
-		E88B36D72BBF123300B5C98E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36D62BBF123300B5C98E /* ViewController.swift */; };
-		E88B36DA2BBF123300B5C98E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E88B36D92BBF123300B5C98E /* Base */; };
-		E88B36DC2BBF123500B5C98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88B36DB2BBF123500B5C98E /* Assets.xcassets */; };
+		E88B36D72BBF123300B5C98E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36D62BBF123300B5C98E /* WelcomeViewController.swift */; };
 		E88B36DF2BBF123500B5C98E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E88B36DE2BBF123500B5C98E /* Base */; };
+		E88B36EA2BBF141D00B5C98E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E88B36E92BBF141D00B5C98E /* SnapKit */; };
+		E88B36EC2BBF141D00B5C98E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E88B36EB2BBF141D00B5C98E /* SnapKit-Dynamic */; };
+		E88B36EF2BBF1CC200B5C98E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36EE2BBF1CC200B5C98E /* SignUpViewController.swift */; };
+		E88B36F22BBF205800B5C98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88B36F12BBF205800B5C98E /* Assets.xcassets */; };
+		E88B36F42BBF2B8100B5C98E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36F32BBF2B8100B5C98E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E88B36CF2BBF123300B5C98E /* SecretSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88B36D22BBF123300B5C98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E88B36D42BBF123300B5C98E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E88B36D62BBF123300B5C98E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E88B36D92BBF123300B5C98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E88B36DB2BBF123500B5C98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E88B36D62BBF123300B5C98E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E88B36DE2BBF123500B5C98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E88B36E02BBF123500B5C98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88B36EE2BBF1CC200B5C98E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E88B36F12BBF205800B5C98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E88B36F32BBF2B8100B5C98E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88B36EA2BBF141D00B5C98E /* SnapKit in Frameworks */,
+				E88B36EC2BBF141D00B5C98E /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +62,40 @@
 		E88B36D12BBF123300B5C98E /* SecretSanta */ = {
 			isa = PBXGroup;
 			children = (
-				E88B36D22BBF123300B5C98E /* AppDelegate.swift */,
-				E88B36D42BBF123300B5C98E /* SceneDelegate.swift */,
-				E88B36D62BBF123300B5C98E /* ViewController.swift */,
-				E88B36D82BBF123300B5C98E /* Main.storyboard */,
-				E88B36DB2BBF123500B5C98E /* Assets.xcassets */,
+				E88B36E62BBF131600B5C98E /* Modules */,
+				E88B36E72BBF132100B5C98E /* Resourses */,
 				E88B36DD2BBF123500B5C98E /* LaunchScreen.storyboard */,
 				E88B36E02BBF123500B5C98E /* Info.plist */,
 			);
 			path = SecretSanta;
+			sourceTree = "<group>";
+		};
+		E88B36E62BBF131600B5C98E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E88B36ED2BBF1C4A00B5C98E /* AuthPages */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E88B36E72BBF132100B5C98E /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				E88B36D22BBF123300B5C98E /* AppDelegate.swift */,
+				E88B36D42BBF123300B5C98E /* SceneDelegate.swift */,
+				E88B36F12BBF205800B5C98E /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		E88B36ED2BBF1C4A00B5C98E /* AuthPages */ = {
+			isa = PBXGroup;
+			children = (
+				E88B36D62BBF123300B5C98E /* WelcomeViewController.swift */,
+				E88B36EE2BBF1CC200B5C98E /* SignUpViewController.swift */,
+				E88B36F32BBF2B8100B5C98E /* LoginViewController.swift */,
+			);
+			path = AuthPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +114,10 @@
 			dependencies = (
 			);
 			name = SecretSanta;
+			packageProductDependencies = (
+				E88B36E92BBF141D00B5C98E /* SnapKit */,
+				E88B36EB2BBF141D00B5C98E /* SnapKit-Dynamic */,
+			);
 			productName = SecretSanta;
 			productReference = E88B36CF2BBF123300B5C98E /* SecretSanta.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +146,9 @@
 				Base,
 			);
 			mainGroup = E88B36C62BBF123200B5C98E;
+			packageReferences = (
+				E88B36E82BBF141D00B5C98E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E88B36D02BBF123300B5C98E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88B36DC2BBF123500B5C98E /* Assets.xcassets in Resources */,
+				E88B36F22BBF205800B5C98E /* Assets.xcassets in Resources */,
 				E88B36DF2BBF123500B5C98E /* Base in Resources */,
-				E88B36DA2BBF123300B5C98E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88B36D72BBF123300B5C98E /* ViewController.swift in Sources */,
+				E88B36D72BBF123300B5C98E /* WelcomeViewController.swift in Sources */,
 				E88B36D32BBF123300B5C98E /* AppDelegate.swift in Sources */,
+				E88B36EF2BBF1CC200B5C98E /* SignUpViewController.swift in Sources */,
+				E88B36F42BBF2B8100B5C98E /* LoginViewController.swift in Sources */,
 				E88B36D52BBF123300B5C98E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +186,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E88B36D82BBF123300B5C98E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E88B36D92BBF123300B5C98E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E88B36DD2BBF123500B5C98E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +328,6 @@
 				INFOPLIST_FILE = SecretSanta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +355,6 @@
 				INFOPLIST_FILE = SecretSanta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +392,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E88B36E82BBF141D00B5C98E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E88B36E92BBF141D00B5C98E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B36E82BBF141D00B5C98E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E88B36EB2BBF141D00B5C98E /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B36E82BBF141D00B5C98E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E88B36C72BBF123300B5C98E /* Project object */;
 }
