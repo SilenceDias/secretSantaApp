@@ -15,9 +15,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        let welcomeController = WelcomeViewController()
-        let navigationController = UINavigationController(rootViewController: welcomeController)
-        window?.rootViewController = navigationController
+        
+        if AuthManager.shared.isSignedIn {
+            AuthManager.shared.refreshAccessToken()
+            let tabBarController = TabBarViewController()
+            window?.rootViewController = tabBarController
+        }
+        else {
+            let welcomeController = WelcomeViewController()
+            let navigationController = UINavigationController(rootViewController: welcomeController)
+            window?.rootViewController = navigationController
+        }
+        
+       
         window?.makeKeyAndVisible()
     }
 
@@ -48,7 +58,37 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
+    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        guard let firstUrl = URLContexts.first?.url else {
+            return
+        }
+        
+        print(firstUrl.absoluteString)
+        var stirngUrl = firstUrl.absoluteString
+        let index = stirngUrl.index(stirngUrl.startIndex, offsetBy: 11)
+        let code = stirngUrl.suffix(from: index)
+        print(code)
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: windowScene)
+        
+        if AuthManager.shared.isSignedIn {
+            AuthManager.shared.refreshAccessToken()
+            let acceptGameVc = AcceptGameViewController()
+            acceptGameVc.link = String(code)
+            let navigationController = UINavigationController(rootViewController: acceptGameVc)
+            window?.rootViewController = navigationController
+        }
+        else {
+            let welcomeController = WelcomeViewController()
+            let navigationController = UINavigationController(rootViewController: welcomeController)
+            window?.rootViewController = navigationController
+        }
+        
+        UserDefaults.standard.setValue(true, forKey: "shouldPresentInvite")
+       
+        window?.makeKeyAndVisible()
+    }
 
 }
 

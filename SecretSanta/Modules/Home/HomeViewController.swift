@@ -1,15 +1,16 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  SecretSanta
 //
-//  Created by Диас Мухамедрахимов on 04.04.2024.
+//  Created by Диас Мухамедрахимов on 07.04.2024.
 //
 
 import UIKit
-import SnapKit
 
-class WelcomeViewController: UIViewController {
+class HomeViewController: UIViewController {
     
+    var shouldPresentInvite = UserDefaults.standard.bool(forKey: "shouldPresentInvite")
+
     private let santaImage: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "santa_pic")
@@ -36,14 +37,14 @@ class WelcomeViewController: UIViewController {
         return label
     }()
     
-    private lazy var signUpButton: UIButton = {
+    private lazy var createGameButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = UIColor(red: 1.0, green: 99/255.0, blue: 0/255.0, alpha: 1.0)
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 20
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
-        button.setTitle("Зарегистрироваться", for: .normal)
-        button.addTarget(self, action: #selector(didTapSignUp), for: .touchUpInside)
+        button.setTitle("Создать игру", for: .normal)
+        button.addTarget(self, action: #selector(didTapCreate), for: .touchUpInside)
         return button
     }()
 
@@ -55,7 +56,7 @@ class WelcomeViewController: UIViewController {
     private func setupViews(){
         view.backgroundColor = UIColor(red: 192/255.0, green: 227/255.0, blue: 229/255.0, alpha: 1.0)
         
-        [santaImage, titleLabel, subTitleLabel, signUpButton].forEach {
+        [santaImage, titleLabel, subTitleLabel, createGameButton].forEach {
             view.addSubview($0)
         }
         
@@ -74,7 +75,7 @@ class WelcomeViewController: UIViewController {
             make.left.right.equalToSuperview().inset(64)
         }
         
-        signUpButton.snp.makeConstraints { make in
+        createGameButton.snp.makeConstraints { make in
             make.bottom.equalTo(view.safeAreaLayoutGuide).inset(26)
             make.height.equalTo(40)
             make.left.right.equalToSuperview().inset(67)
@@ -82,26 +83,15 @@ class WelcomeViewController: UIViewController {
     }
     
     @objc
-    private func didTapSignUp(){
-        let vc = SignUpViewController()
-        vc.completionHandler = { [weak self] success in
-            self?.handleSignIn(status: success)
-        }
+    private func didTapCreate(){
+        let vc = CreateGameViewController()
+//        vc.completionHandler = { [weak self] success in
+//            self?.handleSignIn(status: success)
+//        }
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    private func handleSignIn(status: Bool){
-        guard status else {
-            let alert = UIAlertController(title: "Oops", message: "Smth went wrong", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel))
-            self.present(alert, animated: true, completion: nil)
-            return
-        }
-        
-        let tabbarController = TabBarViewController()
-        tabbarController.modalPresentationStyle = .fullScreen
-        present(tabbarController, animated: true)
-    }
     
-}
 
+
+}

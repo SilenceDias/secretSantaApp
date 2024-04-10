@@ -16,6 +16,55 @@
 		E88B36EF2BBF1CC200B5C98E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36EE2BBF1CC200B5C98E /* SignUpViewController.swift */; };
 		E88B36F22BBF205800B5C98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88B36F12BBF205800B5C98E /* Assets.xcassets */; };
 		E88B36F42BBF2B8100B5C98E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36F32BBF2B8100B5C98E /* LoginViewController.swift */; };
+		E88B36F92BC1BDB200B5C98E /* LoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36F82BC1BDB200B5C98E /* LoggerPlugin.swift */; };
+		E88B36FB2BC1BDC000B5C98E /* NetworkLoggerPluginConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B36FA2BC1BDC000B5C98E /* NetworkLoggerPluginConfig.swift */; };
+		E88B36FE2BC1BE1A00B5C98E /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E88B36FD2BC1BE1A00B5C98E /* CombineMoya */; };
+		E88B37002BC1BE1A00B5C98E /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E88B36FF2BC1BE1A00B5C98E /* Moya */; };
+		E88B37022BC1BE1A00B5C98E /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E88B37012BC1BE1A00B5C98E /* ReactiveMoya */; };
+		E88B37042BC1BE1A00B5C98E /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E88B37032BC1BE1A00B5C98E /* RxMoya */; };
+		E88B37062BC1BE5E00B5C98E /* AuthTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37052BC1BE5E00B5C98E /* AuthTarget.swift */; };
+		E88B37092BC1BFE200B5C98E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37082BC1BFE200B5C98E /* AuthManager.swift */; };
+		E88B370D2BC1C30200B5C98E /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B370C2BC1C30200B5C98E /* AuthResponse.swift */; };
+		E88B370F2BC1C3D500B5C98E /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B370E2BC1C3D500B5C98E /* ApiResult.swift */; };
+		E88B37152BC1C51B00B5C98E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37142BC1C51B00B5C98E /* TabBarViewController.swift */; };
+		E88B37172BC1C5DC00B5C98E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37162BC1C5DC00B5C98E /* GameViewController.swift */; };
+		E88B37192BC1C5E700B5C98E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37182BC1C5E700B5C98E /* ProfileViewController.swift */; };
+		E88B371C2BC1C5FA00B5C98E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B371B2BC1C5FA00B5C98E /* HomeViewController.swift */; };
+		E88B371F2BC1C6DC00B5C98E /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = E88B371E2BC1C6DC00B5C98E /* SwiftKeychainWrapper */; };
+		E88B37222BC1F7B900B5C98E /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37212BC1F7B900B5C98E /* ProfileInfoView.swift */; };
+		E88B37242BC2045000B5C98E /* ProfileTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37232BC2045000B5C98E /* ProfileTarget.swift */; };
+		E88B37262BC2D7DE00B5C98E /* GamesTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37252BC2D7DE00B5C98E /* GamesTarget.swift */; };
+		E88B37282BC2DA7F00B5C98E /* GamesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37272BC2DA7F00B5C98E /* GamesResponse.swift */; };
+		E88B372A2BC2DB1B00B5C98E /* MyGamesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37292BC2DB1B00B5C98E /* MyGamesResponse.swift */; };
+		E88B372C2BC2DB3D00B5C98E /* GamesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B372B2BC2DB3D00B5C98E /* GamesManager.swift */; };
+		E88B37312BC2DE6800B5C98E /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37302BC2DE6800B5C98E /* GameTableViewCell.swift */; };
+		E88B37332BC303A100B5C98E /* CreateGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37322BC303A100B5C98E /* CreateGameViewController.swift */; };
+		E88B37352BC4AF1200B5C98E /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37342BC4AF1200B5C98E /* InviteViewController.swift */; };
+		E88B37372BC4AFD800B5C98E /* GameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37362BC4AFD800B5C98E /* GameDetailsViewController.swift */; };
+		E88B37392BC4B18A00B5C98E /* LinkPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37382BC4B18A00B5C98E /* LinkPageViewController.swift */; };
+		E88B373C2BC4B34100B5C98E /* InvitationsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B373B2BC4B34100B5C98E /* InvitationsTarget.swift */; };
+		E88B373E2BC4B42D00B5C98E /* InvitationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B373D2BC4B42D00B5C98E /* InvitationsManager.swift */; };
+		E88B37402BC4B84400B5C98E /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B373F2BC4B84400B5C98E /* LinkModel.swift */; };
+		E88B37422BC4FB2C00B5C98E /* AddManuallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37412BC4FB2C00B5C98E /* AddManuallyViewController.swift */; };
+		E88B37442BC5E5E100B5C98E /* CreateCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37432BC5E5E100B5C98E /* CreateCardViewController.swift */; };
+		E88B37472BC5E7EE00B5C98E /* AcceptGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37462BC5E7EE00B5C98E /* AcceptGameViewController.swift */; };
+		E88B37492BC5EC8900B5C98E /* AcceptResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37482BC5EC8900B5C98E /* AcceptResponse.swift */; };
+		E88B374C2BC5F36400B5C98E /* GameUserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B374B2BC5F36400B5C98E /* GameUserTarget.swift */; };
+		E88B374E2BC5F5F200B5C98E /* GameUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B374D2BC5F5F200B5C98E /* GameUserManager.swift */; };
+		E88B37502BC5F78700B5C98E /* CreateWishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B374F2BC5F78700B5C98E /* CreateWishListViewController.swift */; };
+		E88B37522BC5FAB700B5C98E /* WishListTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37512BC5FAB700B5C98E /* WishListTarget.swift */; };
+		E88B37542BC5FB7E00B5C98E /* WishListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37532BC5FB7E00B5C98E /* WishListManager.swift */; };
+		E88B37562BC5FC9A00B5C98E /* AcceptedGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37552BC5FC9A00B5C98E /* AcceptedGameViewController.swift */; };
+		E88B37582BC6BFA200B5C98E /* SendInvitationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37572BC6BFA200B5C98E /* SendInvitationModel.swift */; };
+		E88B375A2BC6C35100B5C98E /* PlayersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37592BC6C35100B5C98E /* PlayersTableViewCell.swift */; };
+		E88B375C2BC6CAEF00B5C98E /* ListOfPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B375B2BC6CAEF00B5C98E /* ListOfPlayers.swift */; };
+		E88B37602BC6D31E00B5C98E /* GameDetailsSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B375F2BC6D31E00B5C98E /* GameDetailsSecondViewController.swift */; };
+		E88B37622BC6E59300B5C98E /* ShuffledGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37612BC6E59300B5C98E /* ShuffledGameViewController.swift */; };
+		E88B37642BC6EB6A00B5C98E /* MyGiftee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37632BC6EB6900B5C98E /* MyGiftee.swift */; };
+		E88B37662BC6EC1B00B5C98E /* MyGifteeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37652BC6EC1B00B5C98E /* MyGifteeInfoViewController.swift */; };
+		E88B37682BC6ECD800B5C98E /* WishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37672BC6ECD800B5C98E /* WishListTableViewCell.swift */; };
+		E88B376A2BC7055D00B5C98E /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B37692BC7055D00B5C98E /* ProfileManager.swift */; };
+		E88B376C2BC705F000B5C98E /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B376B2BC705F000B5C98E /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +77,50 @@
 		E88B36EE2BBF1CC200B5C98E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E88B36F12BBF205800B5C98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E88B36F32BBF2B8100B5C98E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E88B36F82BC1BDB200B5C98E /* LoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerPlugin.swift; sourceTree = "<group>"; };
+		E88B36FA2BC1BDC000B5C98E /* NetworkLoggerPluginConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPluginConfig.swift; sourceTree = "<group>"; };
+		E88B37052BC1BE5E00B5C98E /* AuthTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTarget.swift; sourceTree = "<group>"; };
+		E88B37082BC1BFE200B5C98E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		E88B370C2BC1C30200B5C98E /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		E88B370E2BC1C3D500B5C98E /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		E88B37142BC1C51B00B5C98E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E88B37162BC1C5DC00B5C98E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E88B37182BC1C5E700B5C98E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E88B371B2BC1C5FA00B5C98E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E88B37212BC1F7B900B5C98E /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		E88B37232BC2045000B5C98E /* ProfileTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTarget.swift; sourceTree = "<group>"; };
+		E88B37252BC2D7DE00B5C98E /* GamesTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTarget.swift; sourceTree = "<group>"; };
+		E88B37272BC2DA7F00B5C98E /* GamesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesResponse.swift; sourceTree = "<group>"; };
+		E88B37292BC2DB1B00B5C98E /* MyGamesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGamesResponse.swift; sourceTree = "<group>"; };
+		E88B372B2BC2DB3D00B5C98E /* GamesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesManager.swift; sourceTree = "<group>"; };
+		E88B37302BC2DE6800B5C98E /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		E88B37322BC303A100B5C98E /* CreateGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameViewController.swift; sourceTree = "<group>"; };
+		E88B37342BC4AF1200B5C98E /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		E88B37362BC4AFD800B5C98E /* GameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsViewController.swift; sourceTree = "<group>"; };
+		E88B37382BC4B18A00B5C98E /* LinkPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPageViewController.swift; sourceTree = "<group>"; };
+		E88B373B2BC4B34100B5C98E /* InvitationsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationsTarget.swift; sourceTree = "<group>"; };
+		E88B373D2BC4B42D00B5C98E /* InvitationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationsManager.swift; sourceTree = "<group>"; };
+		E88B373F2BC4B84400B5C98E /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		E88B37412BC4FB2C00B5C98E /* AddManuallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddManuallyViewController.swift; sourceTree = "<group>"; };
+		E88B37432BC5E5E100B5C98E /* CreateCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardViewController.swift; sourceTree = "<group>"; };
+		E88B37462BC5E7EE00B5C98E /* AcceptGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptGameViewController.swift; sourceTree = "<group>"; };
+		E88B37482BC5EC8900B5C98E /* AcceptResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptResponse.swift; sourceTree = "<group>"; };
+		E88B374B2BC5F36400B5C98E /* GameUserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUserTarget.swift; sourceTree = "<group>"; };
+		E88B374D2BC5F5F200B5C98E /* GameUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUserManager.swift; sourceTree = "<group>"; };
+		E88B374F2BC5F78700B5C98E /* CreateWishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWishListViewController.swift; sourceTree = "<group>"; };
+		E88B37512BC5FAB700B5C98E /* WishListTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListTarget.swift; sourceTree = "<group>"; };
+		E88B37532BC5FB7E00B5C98E /* WishListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListManager.swift; sourceTree = "<group>"; };
+		E88B37552BC5FC9A00B5C98E /* AcceptedGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedGameViewController.swift; sourceTree = "<group>"; };
+		E88B37572BC6BFA200B5C98E /* SendInvitationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInvitationModel.swift; sourceTree = "<group>"; };
+		E88B37592BC6C35100B5C98E /* PlayersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewCell.swift; sourceTree = "<group>"; };
+		E88B375B2BC6CAEF00B5C98E /* ListOfPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPlayers.swift; sourceTree = "<group>"; };
+		E88B375F2BC6D31E00B5C98E /* GameDetailsSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsSecondViewController.swift; sourceTree = "<group>"; };
+		E88B37612BC6E59300B5C98E /* ShuffledGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffledGameViewController.swift; sourceTree = "<group>"; };
+		E88B37632BC6EB6900B5C98E /* MyGiftee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGiftee.swift; sourceTree = "<group>"; };
+		E88B37652BC6EC1B00B5C98E /* MyGifteeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGifteeInfoViewController.swift; sourceTree = "<group>"; };
+		E88B37672BC6ECD800B5C98E /* WishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
+		E88B37692BC7055D00B5C98E /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		E88B376B2BC705F000B5C98E /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +128,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88B37042BC1BE1A00B5C98E /* RxMoya in Frameworks */,
 				E88B36EA2BBF141D00B5C98E /* SnapKit in Frameworks */,
 				E88B36EC2BBF141D00B5C98E /* SnapKit-Dynamic in Frameworks */,
+				E88B37002BC1BE1A00B5C98E /* Moya in Frameworks */,
+				E88B37022BC1BE1A00B5C98E /* ReactiveMoya in Frameworks */,
+				E88B36FE2BC1BE1A00B5C98E /* CombineMoya in Frameworks */,
+				E88B371F2BC1C6DC00B5C98E /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +160,7 @@
 		E88B36D12BBF123300B5C98E /* SecretSanta */ = {
 			isa = PBXGroup;
 			children = (
+				E88B36F52BC1BD7900B5C98E /* Core */,
 				E88B36E62BBF131600B5C98E /* Modules */,
 				E88B36E72BBF132100B5C98E /* Resourses */,
 				E88B36DD2BBF123500B5C98E /* LaunchScreen.storyboard */,
@@ -73,7 +172,12 @@
 		E88B36E62BBF131600B5C98E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E88B37452BC5E7DD00B5C98E /* AcceptGame */,
 				E88B36ED2BBF1C4A00B5C98E /* AuthPages */,
+				E88B37102BC1C46E00B5C98E /* TabBar */,
+				E88B37132BC1C4E000B5C98E /* Game */,
+				E88B37122BC1C48A00B5C98E /* Profile */,
+				E88B37112BC1C47500B5C98E /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -98,6 +202,148 @@
 			path = AuthPages;
 			sourceTree = "<group>";
 		};
+		E88B36F52BC1BD7900B5C98E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E88B370A2BC1C2E400B5C98E /* Data */,
+				E88B37072BC1BFD600B5C98E /* Managers */,
+				E88B36F62BC1BD8000B5C98E /* Plugins */,
+				E88B36F72BC1BD8B00B5C98E /* Targets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E88B36F62BC1BD8000B5C98E /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E88B36F82BC1BDB200B5C98E /* LoggerPlugin.swift */,
+				E88B36FA2BC1BDC000B5C98E /* NetworkLoggerPluginConfig.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		E88B36F72BC1BD8B00B5C98E /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37052BC1BE5E00B5C98E /* AuthTarget.swift */,
+				E88B37232BC2045000B5C98E /* ProfileTarget.swift */,
+				E88B37252BC2D7DE00B5C98E /* GamesTarget.swift */,
+				E88B373B2BC4B34100B5C98E /* InvitationsTarget.swift */,
+				E88B374B2BC5F36400B5C98E /* GameUserTarget.swift */,
+				E88B37512BC5FAB700B5C98E /* WishListTarget.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		E88B37072BC1BFD600B5C98E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37082BC1BFE200B5C98E /* AuthManager.swift */,
+				E88B372B2BC2DB3D00B5C98E /* GamesManager.swift */,
+				E88B373D2BC4B42D00B5C98E /* InvitationsManager.swift */,
+				E88B374D2BC5F5F200B5C98E /* GameUserManager.swift */,
+				E88B37532BC5FB7E00B5C98E /* WishListManager.swift */,
+				E88B37692BC7055D00B5C98E /* ProfileManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E88B370A2BC1C2E400B5C98E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E88B370B2BC1C2EF00B5C98E /* Models */,
+				E88B370E2BC1C3D500B5C98E /* ApiResult.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E88B370B2BC1C2EF00B5C98E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E88B370C2BC1C30200B5C98E /* AuthResponse.swift */,
+				E88B37272BC2DA7F00B5C98E /* GamesResponse.swift */,
+				E88B37292BC2DB1B00B5C98E /* MyGamesResponse.swift */,
+				E88B373F2BC4B84400B5C98E /* LinkModel.swift */,
+				E88B37482BC5EC8900B5C98E /* AcceptResponse.swift */,
+				E88B37572BC6BFA200B5C98E /* SendInvitationModel.swift */,
+				E88B375B2BC6CAEF00B5C98E /* ListOfPlayers.swift */,
+				E88B37632BC6EB6900B5C98E /* MyGiftee.swift */,
+				E88B376B2BC705F000B5C98E /* UserInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E88B37102BC1C46E00B5C98E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37142BC1C51B00B5C98E /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E88B37112BC1C47500B5C98E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E88B371B2BC1C5FA00B5C98E /* HomeViewController.swift */,
+				E88B37322BC303A100B5C98E /* CreateGameViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E88B37122BC1C48A00B5C98E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37202BC1F79500B5C98E /* Subview */,
+				E88B37182BC1C5E700B5C98E /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E88B37132BC1C4E000B5C98E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				E88B372D2BC2DDC900B5C98E /* Subviews */,
+				E88B37162BC1C5DC00B5C98E /* GameViewController.swift */,
+				E88B37342BC4AF1200B5C98E /* InviteViewController.swift */,
+				E88B375F2BC6D31E00B5C98E /* GameDetailsSecondViewController.swift */,
+				E88B37362BC4AFD800B5C98E /* GameDetailsViewController.swift */,
+				E88B37382BC4B18A00B5C98E /* LinkPageViewController.swift */,
+				E88B37412BC4FB2C00B5C98E /* AddManuallyViewController.swift */,
+				E88B37612BC6E59300B5C98E /* ShuffledGameViewController.swift */,
+				E88B37652BC6EC1B00B5C98E /* MyGifteeInfoViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E88B37202BC1F79500B5C98E /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37212BC1F7B900B5C98E /* ProfileInfoView.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		E88B372D2BC2DDC900B5C98E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37302BC2DE6800B5C98E /* GameTableViewCell.swift */,
+				E88B37592BC6C35100B5C98E /* PlayersTableViewCell.swift */,
+				E88B37672BC6ECD800B5C98E /* WishListTableViewCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E88B37452BC5E7DD00B5C98E /* AcceptGame */ = {
+			isa = PBXGroup;
+			children = (
+				E88B37462BC5E7EE00B5C98E /* AcceptGameViewController.swift */,
+				E88B37432BC5E5E100B5C98E /* CreateCardViewController.swift */,
+				E88B374F2BC5F78700B5C98E /* CreateWishListViewController.swift */,
+				E88B37552BC5FC9A00B5C98E /* AcceptedGameViewController.swift */,
+			);
+			path = AcceptGame;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +363,11 @@
 			packageProductDependencies = (
 				E88B36E92BBF141D00B5C98E /* SnapKit */,
 				E88B36EB2BBF141D00B5C98E /* SnapKit-Dynamic */,
+				E88B36FD2BC1BE1A00B5C98E /* CombineMoya */,
+				E88B36FF2BC1BE1A00B5C98E /* Moya */,
+				E88B37012BC1BE1A00B5C98E /* ReactiveMoya */,
+				E88B37032BC1BE1A00B5C98E /* RxMoya */,
+				E88B371E2BC1C6DC00B5C98E /* SwiftKeychainWrapper */,
 			);
 			productName = SecretSanta;
 			productReference = E88B36CF2BBF123300B5C98E /* SecretSanta.app */;
@@ -148,6 +399,8 @@
 			mainGroup = E88B36C62BBF123200B5C98E;
 			packageReferences = (
 				E88B36E82BBF141D00B5C98E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E88B36FC2BC1BE1A00B5C98E /* XCRemoteSwiftPackageReference "Moya" */,
+				E88B371D2BC1C6DC00B5C98E /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
 			);
 			productRefGroup = E88B36D02BBF123300B5C98E /* Products */;
 			projectDirPath = "";
@@ -176,9 +429,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				E88B36D72BBF123300B5C98E /* WelcomeViewController.swift in Sources */,
+				E88B37522BC5FAB700B5C98E /* WishListTarget.swift in Sources */,
+				E88B372C2BC2DB3D00B5C98E /* GamesManager.swift in Sources */,
+				E88B37472BC5E7EE00B5C98E /* AcceptGameViewController.swift in Sources */,
+				E88B37542BC5FB7E00B5C98E /* WishListManager.swift in Sources */,
+				E88B37242BC2045000B5C98E /* ProfileTarget.swift in Sources */,
+				E88B37352BC4AF1200B5C98E /* InviteViewController.swift in Sources */,
+				E88B37092BC1BFE200B5C98E /* AuthManager.swift in Sources */,
 				E88B36D32BBF123300B5C98E /* AppDelegate.swift in Sources */,
+				E88B373E2BC4B42D00B5C98E /* InvitationsManager.swift in Sources */,
+				E88B36FB2BC1BDC000B5C98E /* NetworkLoggerPluginConfig.swift in Sources */,
+				E88B37282BC2DA7F00B5C98E /* GamesResponse.swift in Sources */,
+				E88B37192BC1C5E700B5C98E /* ProfileViewController.swift in Sources */,
+				E88B37442BC5E5E100B5C98E /* CreateCardViewController.swift in Sources */,
+				E88B37602BC6D31E00B5C98E /* GameDetailsSecondViewController.swift in Sources */,
+				E88B371C2BC1C5FA00B5C98E /* HomeViewController.swift in Sources */,
+				E88B375C2BC6CAEF00B5C98E /* ListOfPlayers.swift in Sources */,
+				E88B37562BC5FC9A00B5C98E /* AcceptedGameViewController.swift in Sources */,
+				E88B37172BC1C5DC00B5C98E /* GameViewController.swift in Sources */,
+				E88B37152BC1C51B00B5C98E /* TabBarViewController.swift in Sources */,
+				E88B37422BC4FB2C00B5C98E /* AddManuallyViewController.swift in Sources */,
+				E88B372A2BC2DB1B00B5C98E /* MyGamesResponse.swift in Sources */,
+				E88B37662BC6EC1B00B5C98E /* MyGifteeInfoViewController.swift in Sources */,
+				E88B37582BC6BFA200B5C98E /* SendInvitationModel.swift in Sources */,
+				E88B373C2BC4B34100B5C98E /* InvitationsTarget.swift in Sources */,
+				E88B37222BC1F7B900B5C98E /* ProfileInfoView.swift in Sources */,
+				E88B376C2BC705F000B5C98E /* UserInfo.swift in Sources */,
+				E88B37642BC6EB6A00B5C98E /* MyGiftee.swift in Sources */,
+				E88B37502BC5F78700B5C98E /* CreateWishListViewController.swift in Sources */,
+				E88B37492BC5EC8900B5C98E /* AcceptResponse.swift in Sources */,
+				E88B37262BC2D7DE00B5C98E /* GamesTarget.swift in Sources */,
+				E88B36F92BC1BDB200B5C98E /* LoggerPlugin.swift in Sources */,
+				E88B37062BC1BE5E00B5C98E /* AuthTarget.swift in Sources */,
+				E88B374E2BC5F5F200B5C98E /* GameUserManager.swift in Sources */,
 				E88B36EF2BBF1CC200B5C98E /* SignUpViewController.swift in Sources */,
+				E88B37312BC2DE6800B5C98E /* GameTableViewCell.swift in Sources */,
+				E88B37392BC4B18A00B5C98E /* LinkPageViewController.swift in Sources */,
+				E88B37682BC6ECD800B5C98E /* WishListTableViewCell.swift in Sources */,
 				E88B36F42BBF2B8100B5C98E /* LoginViewController.swift in Sources */,
+				E88B375A2BC6C35100B5C98E /* PlayersTableViewCell.swift in Sources */,
+				E88B370D2BC1C30200B5C98E /* AuthResponse.swift in Sources */,
+				E88B370F2BC1C3D500B5C98E /* ApiResult.swift in Sources */,
+				E88B374C2BC5F36400B5C98E /* GameUserTarget.swift in Sources */,
+				E88B37402BC4B84400B5C98E /* LinkModel.swift in Sources */,
+				E88B376A2BC7055D00B5C98E /* ProfileManager.swift in Sources */,
+				E88B37372BC4AFD800B5C98E /* GameDetailsViewController.swift in Sources */,
+				E88B37332BC303A100B5C98E /* CreateGameViewController.swift in Sources */,
+				E88B37622BC6E59300B5C98E /* ShuffledGameViewController.swift in Sources */,
 				E88B36D52BBF123300B5C98E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +699,22 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		E88B36FC2BC1BE1A00B5C98E /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		E88B371D2BC1C6DC00B5C98E /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -414,6 +727,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E88B36E82BBF141D00B5C98E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		E88B36FD2BC1BE1A00B5C98E /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B36FC2BC1BE1A00B5C98E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		E88B36FF2BC1BE1A00B5C98E /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B36FC2BC1BE1A00B5C98E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		E88B37012BC1BE1A00B5C98E /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B36FC2BC1BE1A00B5C98E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		E88B37032BC1BE1A00B5C98E /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B36FC2BC1BE1A00B5C98E /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		E88B371E2BC1C6DC00B5C98E /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88B371D2BC1C6DC00B5C98E /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
